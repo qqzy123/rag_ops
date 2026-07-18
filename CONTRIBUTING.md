@@ -13,16 +13,3 @@ By submitting a contribution, you confirm that:
 - Your contribution can be licensed under the Apache License, Version 2.0.
 - Your submission does not include secrets, private data, or third-party code
   that cannot be redistributed under compatible terms.
-
-Before opening a pull request, run the relevant tests:
-
-```powershell
-cd backend
-python -m pytest
-```
-
-```powershell
-cd frontend
-npm run typecheck
-npm run build
-```
