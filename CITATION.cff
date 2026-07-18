@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "rag_ops"
+authors:
+  - name: "zhoujian"
+date-released: 2026-07-18
+version: "0.1.0"
+license: "Apache-2.0"
+repository-code: "https://github.com/qqzy123/rag_ops"

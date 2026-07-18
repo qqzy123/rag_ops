@@ -1,0 +1,70 @@
+# SPDX-FileCopyrightText: 2026 zhoujian
+# SPDX-License-Identifier: Apache-2.0
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Private planning and agent workspace files
+prompt.md
+.agents/
+backend/.agents/
+.codex/
+.git.invalid-empty*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+.pytest-pycache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Docker/local volumes when bind-mounted
+mysql_data/
+minio_data/
+es_data/
+es_plugins/
+etcd_data/
+milvus_data/
+neo4j_data/
