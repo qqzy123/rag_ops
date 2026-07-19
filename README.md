@@ -3,7 +3,7 @@
 这是一个面向 RAG（Retrieval-Augmented Generation，检索增强生成）应用的管理平台。
 项目包含知识库、文件上传、文档Chunk、分块策略Embedding、混合检索Retrieval、重排Rerank、模型配置、任务监控、用户权限等。
 支持自定义分片策略、模型以及多种外部存储集成。
-！！！如果这个项目对你有所帮助，帮忙点个star吧 ！！！
+！！！如果这个项目对你有所帮助，点个star吧 ！！！
 
 项目作者与版权署名：`zhoujian`
 
@@ -31,51 +31,57 @@ GitHub 仓库：`https://github.com/qqzy123/rag_ops`
 - 创建和管理知识库。
 - 上传、查看和删除文件,原始文件存储到 MinIO。
   
-<img width="2527" height="1001" alt="image" src="https://github.com/user-attachments/assets/5235b83a-54c5-43bf-840e-9cc029a30934" />
+<img width="2541" height="1162" alt="image" src="https://github.com/user-attachments/assets/2812d604-5747-44d9-979d-5d447156de35" />
 
 
 ### 文档解析与分块
 
 - 支持 TXT、Markdown、CSV、JSON、PDF、DOC、DOCX 等文档类型。
  
-<img width="2538" height="1312" alt="image" src="https://github.com/user-attachments/assets/f7c3b91c-41bf-4b9f-8d1e-4cb7573d4fd6" />
+<img width="2545" height="1313" alt="image" src="https://github.com/user-attachments/assets/9835784b-0338-44b2-bd89-bf9133b1f8cd" />
+
 
 - 支持多种分块模式和策略配置，支持 chunk size、chunk overlap、token 计数、标题路径、页码、metadata 等分块相关配置。
   
-<img width="2533" height="1306" alt="image" src="https://github.com/user-attachments/assets/6001bbcb-eeb0-4720-9288-c6c22ab02270" />
+<img width="2545" height="1323" alt="image" src="https://github.com/user-attachments/assets/7aa36273-2de8-429f-86de-1f13a5b32f0f" />
+
 
 - 支持Elasticsearch、Milvus、Neo4j（可选）多种入库方式。
 
-<img width="2540" height="1298" alt="image" src="https://github.com/user-attachments/assets/e7bda9f0-a21b-4853-b121-ab16cef1f188" />
+<img width="2537" height="1319" alt="image" src="https://github.com/user-attachments/assets/f3542184-e153-4b2d-acd0-f3d36b2d4d73" />
 
 - 分块结果可预览。
 
-<img width="2547" height="1296" alt="image" src="https://github.com/user-attachments/assets/5f988648-13d8-4dff-862c-35f6d0392d9b" />
+<img width="2541" height="1307" alt="image" src="https://github.com/user-attachments/assets/7fdfe27e-4ca4-457c-bbf8-6047b069e584" />
+
 
 
 ### 检索与索引
 
 - 支持实现 关键词/BM25、向量/Vector、混合/Hybrid、关系图/Grap 多种检索召回。
 
-<img width="2513" height="1307" alt="image" src="https://github.com/user-attachments/assets/fc8780fb-59c7-46d1-aac2-21193d48f664" />
+<img width="2533" height="1340" alt="image" src="https://github.com/user-attachments/assets/abc41146-015a-4b55-acfb-be5a485e6f54" />
+
 
 - 支持召回结果重排比对。
 
-<img width="2509" height="1289" alt="image" src="https://github.com/user-attachments/assets/0e5d14bb-5c77-4e47-b22d-390c16af972c" />
+<img width="2522" height="1300" alt="image" src="https://github.com/user-attachments/assets/72722518-61ec-43e9-8b75-07f10fd43450" />
+
 
 
 ### 分片策略
 
-- 支持自定义分片策略配置。
+- 支持自定义的分片策略。
 
-<img width="2519" height="941" alt="image" src="https://github.com/user-attachments/assets/05e25532-edc7-4d3c-95c8-7206bf4f732a" />
+<img width="2544" height="1282" alt="image" src="https://github.com/user-attachments/assets/6df56638-beb0-4d1f-8e49-8f6f55fbcea9" />
 
 
 ### 模型配置
 
-- 支持配置 embedding、LLM、rerank 等模型。
+- 支持自定义的模型配置 embedding、LLM、rerank 等。
 
-<img width="2534" height="952" alt="image" src="https://github.com/user-attachments/assets/d99fd5cc-5061-4efe-8ea7-464f1755cd90" />
+<img width="2541" height="1226" alt="image" src="https://github.com/user-attachments/assets/bfb2d717-0b4c-493a-bc48-b1e532171cde" />
+
 
 ### 任务
 
