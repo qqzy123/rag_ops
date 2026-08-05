@@ -10,7 +10,7 @@ authors = [
 license = "Apache-2.0"
 requires-python = ">=3.14"
 dependencies = [
-    "cryptography>=49.0.0",
+    "cryptography>=50.0.0",
     "docx2txt>=0.9",
     "elasticsearch==8.17.0",
     "fastapi>=0.139.2",
